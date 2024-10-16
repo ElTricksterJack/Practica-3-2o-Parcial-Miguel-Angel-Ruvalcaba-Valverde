@@ -42,7 +42,7 @@ match x:#con esto puedes elegiŕ una opcion de todas
         e = d*0.13
         print("Euros propios:",d,M["Yen"])
         print("Equibalensia a pesos:",e,M["Yen"])
-    case 4:#13: esta es la opcion de eŕŕoŕ
+    case _:#13: esta es la opcion de eŕŕoŕ
         error()
 
 print("-------------------------------------")#resultado, balla no los esperaba
